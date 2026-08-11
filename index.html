@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Siva Teja — Video Editor | YouTube, Shorts & Reels</title>
+<meta name="description" content="Siva Teja is a video editor specializing in YouTube videos, Shorts, Instagram Reels, storytelling, motion graphics and social media content.">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Siva Teja — Video Editor | YouTube, Shorts & Reels">
+<meta property="og:description" content="Video editor specializing in YouTube videos, Shorts, Instagram Reels, storytelling, motion graphics and social media content.">
+<meta property="og:image" content="assets/og-image.jpg">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Siva Teja — Video Editor | YouTube, Shorts & Reels">
+<meta name="twitter:description" content="Video editor specializing in YouTube videos, Shorts, Instagram Reels, storytelling, motion graphics and social media content.">
+
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="512x512" href="assets/favicon-512.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-180.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Timeline scroll progress (signature element) -->
+<div class="timeline-progress"><div class="timeline-progress__fill" id="scrollFill"></div></div>
+
+<div class="cursor-dot" id="cursorDot"></div>
+
+<!-- ===================== NAVBAR ===================== -->
+<header class="navbar" id="navbar">
+  <a href="#top" class="navbar__logo">
+    <img src="assets/logo.jpg" alt="Telugu Cartoon Lover logo" class="navbar__mark" width="28" height="28">
+    SIVA <span>TEJA</span>
+  </a>
+  <nav class="navbar__links" id="navLinks">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#social">Social</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a href="#contact" class="navbar__cta">Let's Talk →</a>
+  <button class="navbar__burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<div class="navbar__mobile" id="mobileMenu">
+  <a href="#work">Work</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#social">Social</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<main id="top">
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero" aria-label="Introduction">
+    <div class="container hero__grid">
+      <div class="hero__copy reveal is-visible">
+        <p class="hero__kicker">Video Editor — Based in India</p>
+        <h1 class="hero__name">SIVA TEJA</h1>
+        <p class="hero__role">Video Editor</p>
+        <p class="hero__tagline">YouTube • Shorts • Reels • Social Media Content</p>
+        <p class="hero__statement">I turn raw footage into engaging, story-driven content built to capture attention and keep viewers watching.</p>
+        <div class="hero__actions">
+          <a href="#work" class="btn btn--solid magnetic">View My Work</a>
+          <a href="#contact" class="btn btn--ghost magnetic">Let's Work Together</a>
+        </div>
+      </div>
+
+      <div class="hero__reel reveal is-visible" id="heroReel">
+        <div class="hero__reel-label"><span class="rec-dot"></span> LIVE PREVIEW</div>
+        <div class="hero__reel-frame"></div>
+        <button class="play-btn" aria-label="Play showreel" data-video-trigger="showreel">
+          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+        </button>
+        <div class="hero__reel-bottom">
+          <span class="hero__reel-title">Showreel</span>
+          <span class="timecode" id="heroTimecode">00:00:00<span>:00</span></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scroll">
+      <span class="hero__scroll-line"></span> Scroll
+    </div>
+  </section>
+
+  <!-- ===================== SHOWREEL ===================== -->
+  <section id="showreel" aria-label="Showreel">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Showreel</p>
+        <h2>Showreel</h2>
+        <p>A glimpse of what I can create.</p>
+      </div>
+
+      <div class="showreel__player reveal">
+        <div class="video-frame" data-video-trigger="showreel">
+          <div class="video-frame__scan"></div>
+          <div class="video-frame__tag">4K &nbsp;•&nbsp; 16:9</div>
+          <button class="play-btn" aria-label="Play showreel">
+            <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+          <div class="video-frame__meta">
+            <span>SHOWREEL_2026.MP4</span>
+            <span id="reelTimecode">00:00:00<span style="color:var(--accent)">:00</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="capability-row reveal">
+        <div class="capability-row__item">Fast Cuts</div>
+        <div class="capability-row__item">Storytelling</div>
+        <div class="capability-row__item">Motion Graphics</div>
+        <div class="capability-row__item">Sound Design</div>
+        <div class="capability-row__item">Captions</div>
+        <div class="capability-row__item">Color Grading</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SELECTED WORK ===================== -->
+  <section id="work" aria-label="Selected work">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Portfolio</p>
+        <h2>Selected Work</h2>
+        <p>A selection of edits across different formats and styles.</p>
+      </div>
+
+      <div class="filter-row reveal" id="filterRow">
+        <button class="filter-btn is-active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="youtube">YouTube</button>
+        <button class="filter-btn" data-filter="shorts">Shorts</button>
+        <button class="filter-btn" data-filter="reels">Reels</button>
+        <button class="filter-btn" data-filter="cinematic">Cinematic</button>
+        <button class="filter-btn" data-filter="anime">Anime / Entertainment</button>
+      </div>
+
+      <div class="project-grid reveal" id="projectGrid"><!-- injected by script.js --></div>
+    </div>
+  </section>
+
+  <!-- ===================== YOUTUBE EXPERIENCE ===================== -->
+  <section id="youtube" aria-label="YouTube experience">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Experience</p>
+        <h2>YouTube Experience</h2>
+      </div>
+
+      <div class="channel-card reveal">
+        <div>
+          <div class="channel-card__icon channel-card__icon--logo">
+            <img src="assets/logo.jpg" alt="Telugu Cartoon Lover logo" width="52" height="52">
+          </div>
+          <h3 class="channel-card__name" id="ytChannelName">Telugu Cartoon Lover</h3>
+          <p class="channel-card__sub" id="ytSubCount"></p>
+          <p class="channel-card__desc">A Telugu entertainment channel focused on cartoons, anime, storytelling, edits and short-form content.</p>
+          <a href="#" class="btn btn--ghost channel-card__cta" id="ytVisitBtn" target="_blank" rel="noopener">Visit Channel →</a>
+        </div>
+        <div class="video-cards" id="ytVideoCards"><!-- injected by script.js --></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SHORTS & REELS ===================== -->
+  <section id="shorts" aria-label="Shorts and reels">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Short-Form</p>
+        <h2>Shorts &amp; Reels</h2>
+      </div>
+      <p class="shorts__intro reveal">Short-form editing is about winning attention in the first few seconds. My edits focus on pacing, hooks, captions, sound design and visual retention.</p>
+
+      <div class="shorts-grid reveal" id="shortsGrid"><!-- injected by script.js --></div>
+    </div>
+  </section>
+
+  <!-- ===================== SOCIAL MEDIA EXPERIENCE ===================== -->
+  <section id="social" aria-label="Content and social media">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Presence</p>
+        <h2>Content &amp; Social Media</h2>
+      </div>
+
+      <div class="social-grid" id="socialGrid"><!-- injected by script.js --></div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section id="skills" aria-label="What I do">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Capabilities</p>
+        <h2>What I Do</h2>
+      </div>
+
+      <div class="skills-grid reveal">
+        <div class="skill-group">
+          <p class="skill-group__title">Video Editing</p>
+          <div class="skill-item">YouTube Long-form Editing</div>
+          <div class="skill-item">Shorts Editing</div>
+          <div class="skill-item">Instagram Reels</div>
+          <div class="skill-item">Storytelling</div>
+          <div class="skill-item">Fast-paced Editing</div>
+        </div>
+        <div class="skill-group">
+          <p class="skill-group__title">Post Production</p>
+          <div class="skill-item">Sound Design</div>
+          <div class="skill-item">Music Synchronization</div>
+          <div class="skill-item">Color Correction</div>
+          <div class="skill-item">Captions / Subtitles</div>
+          <div class="skill-item">Motion Graphics</div>
+          <div class="skill-item">Transitions</div>
+        </div>
+        <div class="skill-group">
+          <p class="skill-group__title">Content</p>
+          <div class="skill-item">Content Packaging</div>
+          <div class="skill-item">Retention-focused Editing</div>
+          <div class="skill-item">Social Media Content</div>
+          <div class="skill-item">YouTube Content</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== APPROACH ===================== -->
+  <section id="approach" aria-label="How I edit">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Process</p>
+        <h2>How I Edit</h2>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-step reveal">
+          <p class="process-step__num">01</p>
+          <h3 class="process-step__title">Understand</h3>
+          <p class="process-step__desc">Understand the content, audience and goal.</p>
+          <div class="process-step__bar"><span></span></div>
+        </div>
+        <div class="process-step reveal">
+          <p class="process-step__num">02</p>
+          <h3 class="process-step__title">Build</h3>
+          <p class="process-step__desc">Create a strong structure, pacing and storytelling flow.</p>
+          <div class="process-step__bar"><span></span></div>
+        </div>
+        <div class="process-step reveal">
+          <p class="process-step__num">03</p>
+          <h3 class="process-step__title">Polish</h3>
+          <p class="process-step__desc">Add sound design, captions, motion graphics and visual effects.</p>
+          <div class="process-step__bar"><span></span></div>
+        </div>
+        <div class="process-step reveal">
+          <p class="process-step__num">04</p>
+          <h3 class="process-step__title">Deliver</h3>
+          <p class="process-step__desc">Export platform-ready content optimized for YouTube, Shorts and Reels.</p>
+          <div class="process-step__bar"><span></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about" aria-label="About Siva Teja">
+    <div class="container about">
+      <div class="reveal">
+        <p class="eyebrow">About</p>
+        <h2 class="about__lead">Cuts, sound and captions — all in service of the story.</h2>
+      </div>
+      <div class="about__body reveal">
+        <p>I'm Siva Teja, a video editor and content creator focused on YouTube and short-form content. Through my own content platforms, I've worked with different editing styles ranging from fast-paced entertainment and anime edits to storytelling-driven videos. I focus on making every cut, sound effect, caption and visual serve the story.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA ===================== -->
+  <section class="cta" aria-label="Work with me">
+    <div class="container reveal">
+      <h2>Have Footage?<br><em>Let's Turn It Into Content.</em></h2>
+      <p>Whether it's a YouTube video, Short or Reel, let's create something people want to watch.</p>
+      <a href="#contact" class="btn btn--solid magnetic">Let's Work Together</a>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact" aria-label="Get in touch">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Get In Touch</h2>
+      </div>
+
+      <div class="contact-grid reveal" id="contactGrid"><!-- injected by script.js --></div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="container">
+    <div class="footer__top">
+      <div>
+        <div class="footer__logo">SIVA TEJA</div>
+        <div class="footer__role">Video Editor</div>
+      </div>
+      <div class="footer__links">
+        <a href="#" id="footerYt" target="_blank" rel="noopener">YouTube</a>
+        <a href="#" id="footerIg" target="_blank" rel="noopener">Instagram</a>
+        <a href="#" id="footerTg" target="_blank" rel="noopener">Telegram</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Siva Teja. All Rights Reserved.</span>
+      <span class="timecode">STATUS: <span>AVAILABLE FOR WORK</span></span>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -71,63 +71,125 @@ window.SITE_CONFIG = {
      SELECTED WORK — long-form project grid
      category must be one of: youtube | shorts | reels | cinematic | anime
   --------------------------------------------------------------------- */
-  projects: [
-    {
-      title: "City Nights",
-      category: "cinematic",
-      tag: "Cinematic",
-      description: "Mood-driven color grade and sound design for a travel piece.",
-      type: "mp4",
-      src: "assets/video/project-01.mp4",
-      thumb: ""
-    },
-    {
-      title: "Cartoon Recap #12",
-      category: "youtube",
-      tag: "YouTube",
-      description: "Fast-paced recap edit with anime-style captions and SFX.",
-      type: "youtube",
-      src: "",
-      thumb: ""
-    },
-    {
-      title: "Hook in 3 Seconds",
-      category: "shorts",
-      tag: "Shorts",
-      description: "Retention-first vertical edit built around a cold open.",
-      type: "mp4",
-      src: "assets/video/project-03.mp4",
-      thumb: ""
-    },
-    {
-      title: "Reel Drop",
-      category: "reels",
-      tag: "Reels",
-      description: "Beat-synced transitions timed to a trending audio.",
-      type: "mp4",
-      src: "assets/video/project-04.mp4",
-      thumb: ""
-    },
-    {
-      title: "Villain Arc",
-      category: "anime",
-      tag: "Anime / Entertainment",
-      description: "Dynamic motion graphics over dubbed anime commentary.",
-      type: "youtube",
-      src: "",
-      thumb: ""
-    },
-    {
-      title: "Storyline Cut",
-      category: "cinematic",
-      tag: "Cinematic",
-      description: "Narrative-driven structure with layered sound design.",
-      type: "mp4",
-      src: "assets/video/project-06.mp4",
-      thumb: ""
-    }
-  ],
-
+ projects: [
+  {
+    title: "YouTube Edit 01",
+    category: "youtube",
+    tag: "YouTube",
+    description: "Long-form YouTube video editing with storytelling, pacing and visual effects.",
+    type: "youtube",
+    src: "4QCTdAbdJNA",
+    thumb: ""
+  },
+  {
+    title: "YouTube Edit 02",
+    category: "youtube",
+    tag: "YouTube",
+    description: "Engaging YouTube edit focused on pacing, captions and viewer retention.",
+    type: "youtube",
+    src: "Gp7NXWTMPyE",
+    thumb: ""
+  },
+  {
+    title: "YouTube Edit 03",
+    category: "youtube",
+    tag: "YouTube",
+    description: "Story-driven edit with transitions, sound effects and visual storytelling.",
+    type: "youtube",
+    src: "P7muITojYtc",
+    thumb: ""
+  },
+  {
+    title: "YouTube Edit 04",
+    category: "youtube",
+    tag: "YouTube",
+    description: "Entertainment-focused YouTube editing with dynamic pacing and effects.",
+    type: "youtube",
+    src: "_oolJAkAo70",
+    thumb: ""
+  },
+  {
+    title: "YouTube Edit 05",
+    category: "youtube",
+    tag: "YouTube",
+    description: "Professional long-form edit designed to keep viewers engaged.",
+    type: "youtube",
+    src: "PCr3pokFrTg",
+    thumb: ""
+  },
+  {
+    title: "YouTube Edit 06",
+    category: "youtube",
+    tag: "YouTube",
+    description: "Cinematic YouTube editing with strong pacing and visual presentation.",
+    type: "youtube",
+    src: "VOsrHBnRVO8",
+    thumb: ""
+  },
+  {
+    title: "YouTube Edit 07",
+    category: "youtube",
+    tag: "YouTube",
+    description: "Complete YouTube editing with storytelling, captions and effects.",
+    type: "youtube",
+    src: "AlwK-Yk2DFY",
+    thumb: ""
+  },
+  {
+    title: "Shorts Edit 01",
+    category: "shorts",
+    tag: "YouTube Shorts",
+    description: "Vertical short-form edit built for fast pacing and viewer retention.",
+    type: "youtube",
+    src: "3414f-vNgko",
+    thumb: ""
+  },
+  {
+    title: "Shorts Edit 02",
+    category: "shorts",
+    tag: "YouTube Shorts",
+    description: "Short-form edit with captions, transitions and engaging visual effects.",
+    type: "youtube",
+    src: "S4WgtU39tGI",
+    thumb: ""
+  },
+  {
+    title: "Shorts Edit 03",
+    category: "shorts",
+    tag: "YouTube Shorts",
+    description: "Fast-paced vertical video edit designed to stop the scroll.",
+    type: "youtube",
+    src: "eQ19T89a9NA",
+    thumb: ""
+  },
+  {
+    title: "Shorts Edit 04",
+    category: "shorts",
+    tag: "YouTube Shorts",
+    description: "Dynamic short-form editing with strong hooks and visual effects.",
+    type: "youtube",
+    src: "xbtpitgvcN4",
+    thumb: ""
+  },
+  {
+    title: "Shorts Edit 05",
+    category: "shorts",
+    tag: "YouTube Shorts",
+    description: "Retention-focused vertical edit with captions and sound design.",
+    type: "youtube",
+    src: "wi6mUH_23Og",
+    thumb: ""
+  },
+  {
+    title: "Shorts Edit 06",
+    category: "shorts",
+    tag: "YouTube Shorts",
+    description: "Scroll-stopping short-form edit with energetic pacing and effects.",
+    type: "youtube",
+    src: "piOAXA2JaHg",
+    thumb: ""
+  }
+],
   /* ---------------------------------------------------------------------
      YOUTUBE — featured video cards
   --------------------------------------------------------------------- */

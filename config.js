@@ -194,20 +194,90 @@ window.SITE_CONFIG = {
      YOUTUBE — featured video cards
   --------------------------------------------------------------------- */
   youtubeVideos: [
-    { title: "Cartoon Recap #12", views: "", thumb: "", url: "" },
-    { title: "Anime Edit — Villain Arc", views: "", thumb: "", url: "" },
-    { title: "Storytime: The Twist", views: "", thumb: "", url: "" },
-    { title: "Top 5 Moments", views: "", thumb: "", url: "" }
-  ],
+  {
+    title: "YouTube Edit 01",
+    views: "",
+    thumb: "",
+    url: "https://youtu.be/4QCTdAbdJNA"
+  },
+  {
+    title: "YouTube Edit 02",
+    views: "",
+    thumb: "",
+    url: "https://youtu.be/Gp7NXWTMPyE"
+  },
+  {
+    title: "YouTube Edit 03",
+    views: "",
+    thumb: "",
+    url: "https://youtu.be/P7muITojYtc"
+  },
+  {
+    title: "YouTube Edit 04",
+    views: "",
+    thumb: "",
+    url: "https://youtu.be/_oolJAkAo70"
+  },
+  {
+    title: "YouTube Edit 05",
+    views: "",
+    thumb: "",
+    url: "https://youtu.be/PCr3pokFrTg"
+  },
+  {
+    title: "YouTube Edit 06",
+    views: "",
+    thumb: "",
+    url: "https://youtu.be/VOsrHBnRVO8"
+  },
+  {
+    title: "YouTube Edit 07",
+    views: "",
+    thumb: "",
+    url: "https://youtu.be/AlwK-Yk2DFY"
+  }
+],
 
   /* ---------------------------------------------------------------------
      SHORT-FORM — vertical 9:16 cards
      platform: "YouTube Shorts" | "Instagram Reels"
   --------------------------------------------------------------------- */
-  shortForm: [
-    { platform: "YouTube Shorts", views: "", thumb: "", url: "" },
-    { platform: "Instagram Reels", views: "", thumb: "", url: "" },
-    { platform: "YouTube Shorts", views: "", thumb: "", url: "" },
-    { platform: "Instagram Reels", views: "", thumb: "", url: "" }
-  ]
+shortForm: [
+  {
+    platform: "YouTube Shorts",
+    views: "",
+    thumb: "",
+    url: "https://youtube.com/shorts/3414f-vNgko"
+  },
+  {
+    platform: "YouTube Shorts",
+    views: "",
+    thumb: "",
+    url: "https://youtube.com/shorts/S4WgtU39tGI"
+  },
+  {
+    platform: "YouTube Shorts",
+    views: "",
+    thumb: "",
+    url: "https://youtube.com/shorts/eQ19T89a9NA"
+  },
+  {
+    platform: "YouTube Shorts",
+    views: "",
+    thumb: "",
+    url: "https://youtube.com/shorts/xbtpitgvcN4"
+  },
+  {
+    platform: "YouTube Shorts",
+    views: "",
+    thumb: "",
+    url: "https://youtube.com/shorts/wi6mUH_23Og"
+  },
+  {
+    platform: "YouTube Shorts",
+    views: "",
+    thumb: "",
+    url: "https://youtube.com/shorts/piOAXA2JaHg"
+  }
+]
 };

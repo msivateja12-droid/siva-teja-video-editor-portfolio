@@ -54,7 +54,7 @@ window.SITE_CONFIG = {
      BRAND MARK — channel logo, used as favicon and small brand icon.
      Replace assets/logo.jpg with a new file (same name) to update it.
   --------------------------------------------------------------------- */
-  logo: "assets/logo.jpg",
+  logo: "Mallipamula_siva_teja.png",
 
   /* ---------------------------------------------------------------------
      SHOWREEL — main featured video (hero + showreel section)

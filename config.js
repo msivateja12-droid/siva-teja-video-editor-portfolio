@@ -72,69 +72,51 @@ window.SITE_CONFIG = {
      category must be one of: youtube | shorts | reels | cinematic | anime
   --------------------------------------------------------------------- */
  projects: [
-  {
-    title: "YouTube Edit 01",
-    category: "youtube",
-    tag: "YouTube",
-    description: "Long-form YouTube video editing with storytelling, pacing and visual effects.",
-    type: "youtube",
-    src: "4QCTdAbdJNA",
-    thumb: ""
-  },
-  {
-    title: "YouTube Edit 02",
-    category: "youtube",
-    tag: "YouTube",
-    description: "Engaging YouTube edit focused on pacing, captions and viewer retention.",
-    type: "youtube",
-    src: "Gp7NXWTMPyE",
-    thumb: ""
-  },
-  {
-    title: "YouTube Edit 03",
-    category: "youtube",
-    tag: "YouTube",
-    description: "Story-driven edit with transitions, sound effects and visual storytelling.",
-    type: "youtube",
-    src: "P7muITojYtc",
-    thumb: ""
-  },
-  {
-    title: "YouTube Edit 04",
-    category: "youtube",
-    tag: "YouTube",
-    description: "Entertainment-focused YouTube editing with dynamic pacing and effects.",
-    type: "youtube",
-    src: "_oolJAkAo70",
-    thumb: ""
-  },
-  {
-    title: "YouTube Edit 05",
-    category: "youtube",
-    tag: "YouTube",
-    description: "Professional long-form edit designed to keep viewers engaged.",
-    type: "youtube",
-    src: "PCr3pokFrTg",
-    thumb: ""
-  },
-  {
-    title: "YouTube Edit 06",
-    category: "youtube",
-    tag: "YouTube",
-    description: "Cinematic YouTube editing with strong pacing and visual presentation.",
-    type: "youtube",
-    src: "VOsrHBnRVO8",
-    thumb: ""
-  },
-  {
-    title: "YouTube Edit 07",
-    category: "youtube",
-    tag: "YouTube",
-    description: "Complete YouTube editing with storytelling, captions and effects.",
-    type: "youtube",
-    src: "AlwK-Yk2DFY",
-    thumb: ""
-  },
+ {
+  title: "YouTube Edit 01",
+  category: "youtube",
+  tag: "YouTube",
+  description: "Long-form YouTube video editing with storytelling, pacing and visual effects.",
+  type: "youtube",
+  src: "4QCTdAbdJNA",
+  thumb: ""
+},
+{
+  title: "YouTube Edit 02",
+  category: "youtube",
+  tag: "YouTube",
+  description: "Engaging YouTube edit focused on pacing, captions and viewer retention.",
+  type: "youtube",
+  src: "Gp7NXWTMPyE",
+  thumb: ""
+},
+{
+  title: "YouTube Edit 03",
+  category: "youtube",
+  tag: "YouTube",
+  description: "Story-driven edit with transitions, sound effects and visual storytelling.",
+  type: "youtube",
+  src: "P7muITojYtc",
+  thumb: ""
+},
+{
+  title: "YouTube Edit 04",
+  category: "youtube",
+  tag: "YouTube",
+  description: "Entertainment-focused YouTube editing with dynamic pacing and effects.",
+  type: "youtube",
+  src: "_oolJAkAo70",
+  thumb: ""
+},
+{
+  title: "YouTube Edit 05",
+  category: "youtube",
+  tag: "YouTube",
+  description: "Professional long-form edit designed to keep viewers engaged.",
+  type: "youtube",
+  src: "PCr3pokFrTg",
+  thumb: ""
+},
   {
     title: "Shorts Edit 01",
     category: "shorts",

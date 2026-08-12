@@ -161,16 +161,7 @@ window.SITE_CONFIG = {
   type: "youtube",
   src: "xbtpitgvcN4",
   thumb: ""
-},
-  {
-    title: "Shorts Edit 06",
-    category: "shorts",
-    tag: "YouTube Shorts",
-    description: "Scroll-stopping short-form edit with energetic pacing and effects.",
-    type: "youtube",
-    src: "piOAXA2JaHg",
-    thumb: ""
-  }
+}
 ],
   /* ---------------------------------------------------------------------
      YOUTUBE — featured video cards

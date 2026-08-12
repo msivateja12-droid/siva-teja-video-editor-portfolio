@@ -114,7 +114,7 @@ window.SITE_CONFIG = {
   tag: "YouTube",
   description: "Professional long-form edit designed to keep viewers engaged.",
   type: "youtube",
-  src: "PCr3pokFrTg",
+  src: "VOsrHBnRVO8",
   thumb: ""
 },
   {

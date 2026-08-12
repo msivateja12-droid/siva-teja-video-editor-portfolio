@@ -966,3 +966,15 @@ footer{
   .cursor-dot{ display:none; }
    
 }
+/* SHORTS — 9:16 vertical cards */
+.project-card[data-category="shorts"] .video-frame {
+    aspect-ratio: 9 / 16;
+    height: auto;
+    overflow: hidden;
+}
+
+.project-card[data-category="shorts"] .video-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

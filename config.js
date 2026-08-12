@@ -234,7 +234,7 @@ shortForm: [
     thumb: "",
     url: "https://youtube.com/shorts/xbtpitgvcN4"
   }
-]
+],
 /* ---------------------------------------------------------------------
 THUMBNAILS — separate thumbnail design portfolio
 --------------------------------------------------------------------- */

@@ -135,7 +135,42 @@
       if (s.url) window.open(s.url, "_blank", "noopener");
     });
   });
+   /* -----------------------------------------------------------------------
+   RENDER: THUMBNAIL DESIGNS
+----------------------------------------------------------------------- */
 
+const thumbnailGrid = document.getElementById("thumbnailGrid");
+
+if (thumbnailGrid && cfg.thumbnails) {
+  cfg.thumbnails.forEach((t, i) => {
+    const el = document.createElement("article");
+
+    el.className = "thumbnail-card";
+
+    el.innerHTML = `
+      <img
+        src="${t.image}"
+        alt="${t.title}"
+        loading="lazy"
+      >
+
+      <div class="thumbnail-card__info">
+        <span class="thumbnail-card__title">${t.title}</span>
+        <span class="thumbnail-card__number">
+          ${String(i + 1).padStart(2, "0")}
+        </span>
+      </div>
+    `;
+
+    thumbnailGrid.appendChild(el);
+
+    el.addEventListener("click", () => {
+      window.open(t.image, "_blank", "noopener");
+    });
+  });
+}
+
+   
   /* -----------------------------------------------------------------------
      RENDER: SOCIAL GRID
   ----------------------------------------------------------------------- */

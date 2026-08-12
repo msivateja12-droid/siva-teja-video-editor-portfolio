@@ -19,13 +19,17 @@ window.SITE_CONFIG = {
      CONTACT — replace every placeholder below with your real details.
      Nothing here is invented; these stay as placeholders until you edit them.
   --------------------------------------------------------------------- */
-  contact: {
-    email: "your@email.com",
-    whatsapp: "https://wa.me/910000000000",   // replace with your number
-    instagramHandle: "@yourusername",
-    instagramUrl: "https://instagram.com/yourusername",
-    telegramHandle: "@yourusername",
-    telegramUrl: "https://t.me/yourusername"
+contact: {
+  email: "m.sivateja12@gmail.com",
+
+  whatsapp: "https://wa.me/YOUR_NUMBER",
+
+  instagramHandle: "@Telugu_cartoon.lover",
+  instagramUrl: "https://www.instagram.com/telugu_cartoon.lover/",
+
+  telegramHandle: "@telugu_cartoon_lover",
+  telegramUrl: "https://t.me/telugu_cartoon_lover"
+},
   },
 
   /* ---------------------------------------------------------------------

@@ -524,6 +524,63 @@ section{
   white-space:nowrap;
   display:flex; align-items:center; gap:6px;
 }
+/* =========================================================================
+   THUMBNAIL DESIGNS
+   ========================================================================= */
+
+.thumbnail-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:24px;
+}
+
+.thumbnail-card{
+  position:relative;
+  overflow:hidden;
+  border:1px solid var(--line);
+  border-radius:6px;
+  background:var(--bg-card);
+  cursor:pointer;
+  transition:
+    transform .35s var(--ease),
+    border-color .35s var(--ease);
+}
+
+.thumbnail-card:hover{
+  transform:translateY(-6px);
+  border-color:var(--accent-line);
+}
+
+.thumbnail-card img{
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+  transition:transform .5s var(--ease);
+}
+
+.thumbnail-card:hover img{
+  transform:scale(1.04);
+}
+
+.thumbnail-card__info{
+  padding:16px 18px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+}
+
+.thumbnail-card__title{
+  font-family:var(--font-display);
+  font-size:20px;
+  text-transform:uppercase;
+}
+
+.thumbnail-card__number{
+  font-family:var(--font-mono);
+  font-size:11px;
+  color:var(--accent);
+}
 
 /* =========================================================================
    CHANNEL / SOCIAL CARDS
@@ -883,6 +940,7 @@ footer{
   .hero__reel{ aspect-ratio:16/9; order:-1; }
   .capability-row{ grid-template-columns:repeat(3,1fr); }
   .project-grid{ grid-template-columns:1fr; }
+  .thumbnail-grid{ grid-template-columns:repeat(2,1fr); }
   .channel-card{ grid-template-columns:1fr; padding:36px; }
   .video-cards{ grid-template-columns:repeat(2,1fr); }
   .shorts-grid{ grid-template-columns:repeat(2,1fr); }
@@ -902,7 +960,9 @@ footer{
   .hero__scroll{ display:none; }
   .capability-row{ grid-template-columns:repeat(2,1fr); }
   .video-cards{ grid-template-columns:1fr; }
+  .thumbnail-grid{ grid-template-columns:1fr; }
   .shorts-grid{ grid-template-columns:repeat(2,1fr); }
   .contact-grid{ grid-template-columns:1fr; }
   .cursor-dot{ display:none; }
+   
 }

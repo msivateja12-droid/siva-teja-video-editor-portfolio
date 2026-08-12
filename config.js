@@ -241,27 +241,27 @@ THUMBNAILS — separate thumbnail design portfolio
 thumbnails: [
   {
     title: "Thumbnail Design 01",
-    image: "assets/thumbnails/thumbnail-01.jpg"
+    image: "thumbnail-01.jpg"
   },
   {
     title: "Thumbnail Design 02",
-    image: "assets/thumbnails/thumbnail-02.jpg"
+    image: "thumbnail-02.jpg"
   },
   {
     title: "Thumbnail Design 03",
-    image: "assets/thumbnails/thumbnail-03.jpg"
+    image: "thumbnail-03.jpg"
   },
   {
     title: "Thumbnail Design 04",
-    image: "assets/thumbnails/thumbnail-04.jpg"
+    image: "thumbnail-04.jpg"
   },
   {
     title: "Thumbnail Design 05",
-    image: "assets/thumbnails/thumbnail-05.jpg"
+    image: "thumbnail-05.jpg"
   },
   {
     title: "Thumbnail Design 06",
-    image: "assets/thumbnails/thumbnail-06.jpg"
+    image: "thumbnail-06.jpg"
   }
-]  
+]
 };

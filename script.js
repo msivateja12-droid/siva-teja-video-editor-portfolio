@@ -94,26 +94,53 @@
   document.getElementById("ytSubCount").textContent = yt.subscribers || "";
   const ytBtn = document.getElementById("ytVisitBtn");
   ytBtn.href = yt.url;
+const youtubeProjects = cfg.projects.filter(p => p.category === "youtube");
 
-  const ytVideoCards = document.getElementById("ytVideoCards");
-  cfg.youtubeVideos.forEach((v, i) => {
-    const el = document.createElement("div");
-    el.className = "video-card";
-    el.innerHTML = `
-      <div class="video-frame" data-yt-index="${i}">
-        <div class="video-frame__scan"></div>
-        <button class="play-btn" aria-label="Watch ${v.title}">
-          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-        </button>
-      </div>
-      <p class="video-card__title">${v.title}</p>
-      <p class="video-card__meta">${v.views || "— views"}</p>
-    `;
-    ytVideoCards.appendChild(el);
-    el.querySelector(".video-frame").addEventListener("click", () => {
-      if (v.url) window.open(v.url, "_blank", "noopener");
-    });
+cfg.youtubeVideos.forEach((v, i) => {
+  const el = document.createElement("div");
+  el.className = "video-card";
+
+  const thumbnail = v.thumb || youtubeProjects[i]?.thumb || "";
+
+  el.innerHTML = `
+    <div class="video-frame" data-yt-index="${i}"
+      style="background-image:url('${thumbnail}');
+             background-size:cover;
+             background-position:center;
+             position:relative;
+             overflow:hidden;">
+
+      <img src="${thumbnail}"
+           alt="${v.title}"
+           style="position:absolute;
+                  inset:0;
+                  width:100%;
+                  height:100%;
+                  object-fit:cover;
+                  z-index:0;">
+
+      <div class="video-frame__scan"
+           style="position:relative;z-index:2;"></div>
+
+      <button class="play-btn"
+              aria-label="Watch ${v.title}"
+              style="position:relative;z-index:4;">
+        <svg viewBox="0 0 24 24">
+          <path d="M8 5v14l11-7z"/>
+        </svg>
+      </button>
+    </div>
+
+    <p class="video-card__title">${v.title}</p>
+    <p class="video-card__meta">${v.views || "— views"}</p>
+  `;
+
+  ytVideoCards.appendChild(el);
+
+  el.querySelector(".video-frame").addEventListener("click", () => {
+    if (v.url) window.open(v.url, "_blank", "noopener");
   });
+});
 
   /* -----------------------------------------------------------------------
      RENDER: SHORTS / REELS GRID

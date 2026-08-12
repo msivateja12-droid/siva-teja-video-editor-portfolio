@@ -175,7 +175,7 @@ window.SITE_CONFIG = {
   /* ---------------------------------------------------------------------
      YOUTUBE — featured video cards
   --------------------------------------------------------------------- */
-  youtubeVideos: [
+ youtubeVideos: [
   {
     title: "YouTube Edit 01",
     views: "",
@@ -205,18 +205,6 @@ window.SITE_CONFIG = {
     views: "",
     thumb: "",
     url: "https://youtu.be/PCr3pokFrTg"
-  },
-  {
-    title: "YouTube Edit 06",
-    views: "",
-    thumb: "",
-    url: "https://youtu.be/VOsrHBnRVO8"
-  },
-  {
-    title: "YouTube Edit 07",
-    views: "",
-    thumb: "",
-    url: "https://youtu.be/AlwK-Yk2DFY"
   }
 ],
 

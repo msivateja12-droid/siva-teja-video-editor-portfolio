@@ -29,7 +29,7 @@ contact: {
 
   telegramHandle: "@telugu_cartoon_lover",
   telegramUrl: "https://t.me/telugu_cartoon_lover"
-},
+
   },
 
   /* ---------------------------------------------------------------------

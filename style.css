@@ -969,17 +969,28 @@ footer{
 /* SHORTS — 9:16 vertical cards */
 /* SHORTS — force 9:16 vertical cards */
 /* SHORTS — 9:16 vertical cards, smaller desktop size */
-.project-card[data-category="shorts"] .video-frame {
-  aspect-ratio: 9 / 16 !important;
+/* SHORTS — compact 9:16 cards */
+.shorts-grid {
+  grid-template-columns: repeat(2, 240px) !important;
+  justify-content: center !important;
+  gap: 40px !important;
+}
+
+.shorts-grid .project-card {
+  width: 240px !important;
+  max-width: 240px !important;
+}
+
+.shorts-grid .project-card .video-frame {
   width: 240px !important;
   height: 427px !important;
+  aspect-ratio: 9 / 16 !important;
   min-height: 0 !important;
   padding: 0 !important;
   overflow: hidden !important;
-  margin: 0 auto;
 }
 
-.project-card[data-category="shorts"] .video-frame img {
+.shorts-grid .project-card .video-frame img {
   position: absolute !important;
   inset: 0 !important;
   width: 100% !important;

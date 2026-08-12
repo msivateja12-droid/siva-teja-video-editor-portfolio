@@ -204,7 +204,7 @@ window.SITE_CONFIG = {
     title: "YouTube Edit 05",
     views: "",
     thumb: "",
-    url: "https://youtu.be/PCr3pokFrTg"
+    url: "https://youtu.be/VOsrHBnRVO8"
   }
 ],
 

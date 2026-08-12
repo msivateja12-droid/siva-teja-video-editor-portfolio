@@ -47,6 +47,7 @@
     card.dataset.category = p.category;
     card.innerHTML = `
       <div class="video-frame" data-project-index="${i}" style="background-image: url('${p.thumb}'); background-size: cover; background-position: center;">
+       <img src="${p.thumb}" alt="${p.title}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none;">
        <div class="video-frame__scan"></div>
        <div class="video-frame__tag">${p.tag}</div>
        <button class="play-btn" aria-label="Play ${p.title}">

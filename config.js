@@ -78,7 +78,7 @@ window.SITE_CONFIG = {
   tag: "YouTube",
   description: "Long-form YouTube video editing with storytelling, pacing and visual effects.",
   type: "youtube",
-  src: "4QCTdAbdJNA",
+  src: "AlwK-Yk2DFY",
   thumb: ""
 },
 {

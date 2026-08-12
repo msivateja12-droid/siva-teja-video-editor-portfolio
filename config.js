@@ -180,7 +180,7 @@ window.SITE_CONFIG = {
     title: "YouTube Edit 01",
     views: "",
     thumb: "",
-    url: "https://youtu.be/4QCTdAbdJNA"
+    url: "https://youtu.be/AlwK-Yk2DFY"
   },
   {
     title: "YouTube Edit 02",

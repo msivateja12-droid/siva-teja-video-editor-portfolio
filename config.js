@@ -235,4 +235,33 @@ shortForm: [
     url: "https://youtube.com/shorts/xbtpitgvcN4"
   }
 ]
+/* ---------------------------------------------------------------------
+THUMBNAILS — separate thumbnail design portfolio
+--------------------------------------------------------------------- */
+thumbnails: [
+  {
+    title: "Thumbnail Design 01",
+    image: "assets/thumbnails/thumbnail-01.jpg"
+  },
+  {
+    title: "Thumbnail Design 02",
+    image: "assets/thumbnails/thumbnail-02.jpg"
+  },
+  {
+    title: "Thumbnail Design 03",
+    image: "assets/thumbnails/thumbnail-03.jpg"
+  },
+  {
+    title: "Thumbnail Design 04",
+    image: "assets/thumbnails/thumbnail-04.jpg"
+  },
+  {
+    title: "Thumbnail Design 05",
+    image: "assets/thumbnails/thumbnail-05.jpg"
+  },
+  {
+    title: "Thumbnail Design 06",
+    image: "assets/thumbnails/thumbnail-06.jpg"
+  }
+]  
 };

@@ -79,7 +79,7 @@ window.SITE_CONFIG = {
   description: "Long-form YouTube video editing with storytelling, pacing and visual effects.",
   type: "youtube",
   src: "AlwK-Yk2DFY",
-  thumb: ""
+  thumb: "youtube-01.jpg"
 },
 {
   title: "YouTube Edit 02",
@@ -88,7 +88,7 @@ window.SITE_CONFIG = {
   description: "Engaging YouTube edit focused on pacing, captions and viewer retention.",
   type: "youtube",
   src: "Gp7NXWTMPyE",
-  thumb: ""
+  thumb: "youtube-02.jpg"
 },
 {
   title: "YouTube Edit 03",
@@ -97,7 +97,7 @@ window.SITE_CONFIG = {
   description: "Story-driven edit with transitions, sound effects and visual storytelling.",
   type: "youtube",
   src: "P7muITojYtc",
-  thumb: ""
+  thumb: "youtube-03.jpg"
 },
 {
   title: "YouTube Edit 04",
@@ -106,7 +106,7 @@ window.SITE_CONFIG = {
   description: "Entertainment-focused YouTube editing with dynamic pacing and effects.",
   type: "youtube",
   src: "_oolJAkAo70",
-  thumb: ""
+  thumb: "youtube-04.jpg"
 },
 {
   title: "YouTube Edit 05",
@@ -115,7 +115,7 @@ window.SITE_CONFIG = {
   description: "Professional long-form edit designed to keep viewers engaged.",
   type: "youtube",
   src: "VOsrHBnRVO8",
-  thumb: ""
+  thumb: "youtube-05.jpg"
 },
 {
   title: "Shorts Edit 01",
@@ -151,7 +151,7 @@ window.SITE_CONFIG = {
   description: "Dynamic short-form editing with strong hooks and visual effects.",
   type: "youtube",
   src: "piOAXA2JaHg",
-  thumb: ""
+  thumb: "short-04.jpg"
 },
 {
   title: "Shorts Edit 05",
@@ -160,7 +160,7 @@ window.SITE_CONFIG = {
   description: "Retention-focused vertical edit with captions and sound design.",
   type: "youtube",
   src: "xbtpitgvcN4",
-  thumb: ""
+  thumb: "short-05.jpg"
 }
 ],
   /* ---------------------------------------------------------------------
@@ -170,31 +170,31 @@ window.SITE_CONFIG = {
   {
     title: "YouTube Edit 01",
     views: "",
-    thumb: "",
+    thumb: "youtube-01.jpg",
     url: "https://youtu.be/AlwK-Yk2DFY"
   },
   {
     title: "YouTube Edit 02",
     views: "",
-    thumb: "",
+    thumb: "youtube-02.jpg",
     url: "https://youtu.be/Gp7NXWTMPyE"
   },
   {
     title: "YouTube Edit 03",
     views: "",
-    thumb: "",
+    thumb: "youtube-03.jpg",
     url: "https://youtu.be/P7muITojYtc"
   },
   {
     title: "YouTube Edit 04",
     views: "",
-    thumb: "",
+    thumb: "youtube-04.jpg",
     url: "https://youtu.be/_oolJAkAo70"
   },
   {
     title: "YouTube Edit 05",
     views: "",
-    thumb: "",
+    thumb: "youtube-05.jpg",
     url: "https://youtu.be/VOsrHBnRVO8"
   }
 ],
@@ -225,13 +225,13 @@ shortForm: [
   {
     platform: "YouTube Shorts",
     views: "",
-    thumb: "",
+    thumb: "short-04.jpg",
     url: "https://youtube.com/shorts/piOAXA2JaHg"
   },
   {
     platform: "YouTube Shorts",
     views: "",
-    thumb: "",
+    thumb: "short-05.jpg",
     url: "https://youtube.com/shorts/xbtpitgvcN4"
   }
 ],

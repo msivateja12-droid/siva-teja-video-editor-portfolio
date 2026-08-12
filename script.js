@@ -46,10 +46,10 @@
     card.className = "project-card is-shown";
     card.dataset.category = p.category;
     card.innerHTML = `
-      <div class="video-frame" data-project-index="${i}">
-        <div class="video-frame__scan"></div>
-        <div class="video-frame__tag">${p.tag}</div>
-        <button class="play-btn" aria-label="Play ${p.title}">
+      <div class="video-frame" data-project-index="${i}" style="background-image: url('${p.thumb}'); background-size: cover; background-position: center;">
+       <div class="video-frame__scan"></div>
+       <div class="video-frame__tag">${p.tag}</div>
+       <button class="play-btn" aria-label="Play ${p.title}">
           <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
         </button>
         <div class="video-frame__meta"><span>PROJECT_${String(i + 1).padStart(2, "0")}</span><span>16:9</span></div>

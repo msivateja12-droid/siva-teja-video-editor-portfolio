@@ -117,51 +117,51 @@ window.SITE_CONFIG = {
   src: "VOsrHBnRVO8",
   thumb: ""
 },
-  {
-    title: "Shorts Edit 01",
-    category: "shorts",
-    tag: "YouTube Shorts",
-    description: "Vertical short-form edit built for fast pacing and viewer retention.",
-    type: "youtube",
-    src: "3414f-vNgko",
-    thumb: ""
-  },
-  {
-    title: "Shorts Edit 02",
-    category: "shorts",
-    tag: "YouTube Shorts",
-    description: "Short-form edit with captions, transitions and engaging visual effects.",
-    type: "youtube",
-    src: "S4WgtU39tGI",
-    thumb: ""
-  },
-  {
-    title: "Shorts Edit 03",
-    category: "shorts",
-    tag: "YouTube Shorts",
-    description: "Fast-paced vertical video edit designed to stop the scroll.",
-    type: "youtube",
-    src: "eQ19T89a9NA",
-    thumb: ""
-  },
-  {
-    title: "Shorts Edit 04",
-    category: "shorts",
-    tag: "YouTube Shorts",
-    description: "Dynamic short-form editing with strong hooks and visual effects.",
-    type: "youtube",
-    src: "xbtpitgvcN4",
-    thumb: ""
-  },
-  {
-    title: "Shorts Edit 05",
-    category: "shorts",
-    tag: "YouTube Shorts",
-    description: "Retention-focused vertical edit with captions and sound design.",
-    type: "youtube",
-    src: "wi6mUH_23Og",
-    thumb: ""
-  },
+{
+  title: "Shorts Edit 01",
+  category: "shorts",
+  tag: "YouTube Shorts",
+  description: "Vertical short-form edit built for fast pacing and viewer retention.",
+  type: "youtube",
+  src: "dGMKJEECZIE",
+  thumb: ""
+},
+{
+  title: "Shorts Edit 02",
+  category: "shorts",
+  tag: "YouTube Shorts",
+  description: "Short-form edit with captions, transitions and engaging visual effects.",
+  type: "youtube",
+  src: "e8f0ATsN1fg",
+  thumb: ""
+},
+{
+  title: "Shorts Edit 03",
+  category: "shorts",
+  tag: "YouTube Shorts",
+  description: "Fast-paced vertical video edit designed to stop the scroll.",
+  type: "youtube",
+  src: "w9b9TsMZbgQ",
+  thumb: ""
+},
+{
+  title: "Shorts Edit 04",
+  category: "shorts",
+  tag: "YouTube Shorts",
+  description: "Dynamic short-form editing with strong hooks and visual effects.",
+  type: "youtube",
+  src: "piOAXA2JaHg",
+  thumb: ""
+},
+{
+  title: "Shorts Edit 05",
+  category: "shorts",
+  tag: "YouTube Shorts",
+  description: "Retention-focused vertical edit with captions and sound design.",
+  type: "youtube",
+  src: "xbtpitgvcN4",
+  thumb: ""
+},
   {
     title: "Shorts Edit 06",
     category: "shorts",
@@ -217,37 +217,31 @@ shortForm: [
     platform: "YouTube Shorts",
     views: "",
     thumb: "",
-    url: "https://youtube.com/shorts/3414f-vNgko"
+    url: "https://youtube.com/shorts/dGMKJEECZIE"
   },
   {
     platform: "YouTube Shorts",
     views: "",
     thumb: "",
-    url: "https://youtube.com/shorts/S4WgtU39tGI"
+    url: "https://youtube.com/shorts/e8f0ATsN1fg"
   },
   {
     platform: "YouTube Shorts",
     views: "",
     thumb: "",
-    url: "https://youtube.com/shorts/eQ19T89a9NA"
-  },
-  {
-    platform: "YouTube Shorts",
-    views: "",
-    thumb: "",
-    url: "https://youtube.com/shorts/xbtpitgvcN4"
-  },
-  {
-    platform: "YouTube Shorts",
-    views: "",
-    thumb: "",
-    url: "https://youtube.com/shorts/wi6mUH_23Og"
+    url: "https://youtube.com/shorts/w9b9TsMZbgQ"
   },
   {
     platform: "YouTube Shorts",
     views: "",
     thumb: "",
     url: "https://youtube.com/shorts/piOAXA2JaHg"
+  },
+  {
+    platform: "YouTube Shorts",
+    views: "",
+    thumb: "",
+    url: "https://youtube.com/shorts/xbtpitgvcN4"
   }
 ]
 };

@@ -45,7 +45,7 @@ window.SITE_CONFIG = {
     }
   },
 
-  logo: "Mallipamula_siva_teja.png",
+  logo: "logo.jpg",
 
   showreel: {
     type: "mp4",

@@ -107,7 +107,7 @@ window.SITE_CONFIG = {
       description: "Vertical short-form edit built for fast pacing and viewer retention.",
       type: "youtube",
       src: "dGMKJEECZIE",
-      thumb: ""
+      thumb: "short-01.jpg"
     },
     {
       title: "Shorts Edit 02",
@@ -116,7 +116,7 @@ window.SITE_CONFIG = {
       description: "Short-form edit with captions, transitions and engaging visual effects.",
       type: "youtube",
       src: "e8f0ATsN1fg",
-      thumb: ""
+      thumb: "short-02.jpg"
     },
     {
       title: "Shorts Edit 03",
@@ -125,7 +125,7 @@ window.SITE_CONFIG = {
       description: "Fast-paced vertical video edit designed to stop the scroll.",
       type: "youtube",
       src: "w9b9TsMZbgQ",
-      thumb: ""
+      thumb: "short-03.jpg"
     },
     {
       title: "Shorts Edit 04",
@@ -184,19 +184,19 @@ window.SITE_CONFIG = {
     {
       platform: "YouTube Shorts",
       views: "",
-      thumb: "",
+      thumb: "short-01.jpg",
       url: "https://youtube.com/shorts/dGMKJEECZIE"
     },
     {
       platform: "YouTube Shorts",
       views: "",
-      thumb: "",
+      thumb: "short-02.jpg",
       url: "https://youtube.com/shorts/e8f0ATsN1fg"
     },
     {
       platform: "YouTube Shorts",
       views: "",
-      thumb: "",
+      thumb: "short-03.jpg",
       url: "https://youtube.com/shorts/w9b9TsMZbgQ"
     },
     {
